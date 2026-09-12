@@ -6,4 +6,4 @@ Bienvenido al diario de actividades del curso. Aquí documento lo realizado en c
 
 | Fecha | Tema de la clase | Enlace |
 | :--- | :--- | :--- |
-| 11 de Septiembre | Introducción y primer ejercicio | [Ver clase](./clase-03/) |
+| 9 de Septiembre | Funciones de orden superior | [Ver clase](./clase-03/) |
