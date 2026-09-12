@@ -1,4 +1,4 @@
-# Clase 3 Funciones de orden superior
+# CLASE 3: FUNCIONES DE ORDEN SUPERIOR
 **Fecha:** 9 de Septiembre de 2026
 
 ## ¿Qué vimos hoy?
