@@ -2,7 +2,7 @@
   <img src="./assets/perfil_github_final_11s.gif" width="900">
 </p>
 
-# Bitácora de la Materia
+# BITÁCORA DE LA MATERIA
 
 Bienvenido al diario de actividades del curso. Aquí documento lo realizado en cada sesión.
 
