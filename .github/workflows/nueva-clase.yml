@@ -4,17 +4,21 @@ on:
   workflow_dispatch:
     inputs:
       numero:
-        description: 'Numero con dos digitos (ej. 04)'
+        description: 'Número de dos dígitos (ej. 04)'
         required: true
-        default: '04'
+        default: '00'
       fecha:
         description: 'Fecha (ej. 14 de septiembre)'
         required: true
         default: '14 de septiembre'
       tema:
-        description: 'Tema de la clase'
+        description: 'Tema de la sesión'
         required: true
-        default: 'Tema de la clase'
+        default: 'Tema de la sesión'
+      que_vimos_hoy:
+        description: '¿Qué vimos hoy?'
+        required: false
+        default: ''
 
 jobs:
   crear-clase:
@@ -30,6 +34,7 @@ jobs:
           CARPETA="clase-${{ github.event.inputs.numero }}"
           mkdir -p "$CARPETA"
           
+          # Quitar el cero inicial para el encabezado (ej. 04 -> 4)
           NUM_SIN_CERO=$(echo "${{ github.event.inputs.numero }}" | sed 's/^0*//')
           [ -z "$NUM_SIN_CERO" ] && NUM_SIN_CERO="0"
 
@@ -40,16 +45,17 @@ jobs:
 
           ## ¿Qué vimos hoy?
 
+          ${{ github.event.inputs.que_vimos_hoy }}
           EOF
 
-      - name: Agregar fila a la tabla principal
+      - name: Agregar fila a la tabla del README principal
         run: |
           echo "| ${{ github.event.inputs.numero }} | ${{ github.event.inputs.fecha }} | ${{ github.event.inputs.tema }} | [Ver clase](./clase-${{ github.event.inputs.numero }}/) |" >> README.md
 
-      - name: Guardar cambios
+      - name: Guardar y subir cambios
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "docs: agregar clase ${{ github.event.inputs.numero }}"
+          git commit -m "ci: automatizar creación de bitácoras por sesión"
           git push
