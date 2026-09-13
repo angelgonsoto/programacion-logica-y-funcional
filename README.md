@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/terminal.svg" alt="Terminal Prolog de Alumno" width="100%">
+</p>
+
 # Bitácora de la Materia
 
 Bienvenido al diario de actividades del curso. Aquí documento lo realizado en cada sesión.
