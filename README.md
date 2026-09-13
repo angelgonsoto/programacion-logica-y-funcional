@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./perfil_github_final_11s.gif" width="900">
+  <img src="./assets/perfil_github_final_11s.gif" width="900">
 </p>
 
 # Bitácora de la Materia
