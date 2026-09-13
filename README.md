@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/terminal.svg" alt="Terminal Prolog de Alumno" width="100%">
+  <img src="./perfil_github_final_11s.gif" width="900">
 </p>
 
 # Bitácora de la Materia
