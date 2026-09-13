@@ -8,11 +8,11 @@ on:
         required: true
         default: '00'
       fecha:
-        description: 'Fecha de la sesión (ej. 1 de septiembre)'
+        description: 'Fecha de la clase (ej. 1 de septiembre)'
         required: true
         default: ''
       tema:
-        description: 'Tema de la sesión'
+        description: 'Tema de la clase'
         required: true
         default: ''
       que_vimos_hoy:
@@ -57,5 +57,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "ci: automatizar creación de bitácoras por sesión"
+          git commit -m "ci: cambiar texto sesion por clase en el formulario"
           git push
