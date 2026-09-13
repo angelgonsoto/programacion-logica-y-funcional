@@ -1,0 +1,55 @@
+name: Nueva Clase
+
+on:
+  workflow_dispatch:
+    inputs:
+      numero:
+        description: 'Numero con dos digitos (ej. 04)'
+        required: true
+        default: '04'
+      fecha:
+        description: 'Fecha (ej. 14 de septiembre)'
+        required: true
+        default: '14 de septiembre'
+      tema:
+        description: 'Tema de la clase'
+        required: true
+        default: 'Tema de la clase'
+
+jobs:
+  crear-clase:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Crear carpeta y README de la clase
+        run: |
+          CARPETA="clase-${{ github.event.inputs.numero }}"
+          mkdir -p "$CARPETA"
+          
+          NUM_SIN_CERO=$(echo "${{ github.event.inputs.numero }}" | sed 's/^0*//')
+          [ -z "$NUM_SIN_CERO" ] && NUM_SIN_CERO="0"
+
+          cat << EOF > "$CARPETA/README.md"
+          # CLASE ${NUM_SIN_CERO}: ${{ github.event.inputs.tema }}
+
+          **Fecha:** ${{ github.event.inputs.fecha }} de 2026
+
+          ## ¿Qué vimos hoy?
+
+          EOF
+
+      - name: Agregar fila a la tabla principal
+        run: |
+          echo "| ${{ github.event.inputs.numero }} | ${{ github.event.inputs.fecha }} | ${{ github.event.inputs.tema }} | [Ver clase](./clase-${{ github.event.inputs.numero }}/) |" >> README.md
+
+      - name: Guardar cambios
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "docs: agregar clase ${{ github.event.inputs.numero }}"
+          git push
