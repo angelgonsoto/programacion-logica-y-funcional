@@ -4,17 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       numero:
-        description: 'Número de dos dígitos (ej. 04)'
+        description: 'Número de clase (2 dígitos)'
         required: true
         default: '00'
       fecha:
-        description: 'Fecha (ej. 14 de septiembre)'
+        description: 'Fecha de la sesión (ej. 1 de septiembre)'
         required: true
-        default: '14 de septiembre'
+        default: ''
       tema:
         description: 'Tema de la sesión'
         required: true
-        default: 'Tema de la sesión'
+        default: ''
       que_vimos_hoy:
         description: '¿Qué vimos hoy?'
         required: false
