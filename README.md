@@ -13,3 +13,4 @@ Bienvenido al diario de actividades del curso. Aquí documento lo realizado en c
 | 01 | 2 de septiembre | Paradigmas de programación | [Ver clase](./clase-01/) |
 | 02 | 7 de septiembre | NO ASISTÍ A CLASE | NA |
 | 03 | 9 de septiembre | Funciones de orden superior | [Ver clase](./clase-03/) |
+| 04 | 14 de septiembre | Funciones map y filter usando expresiones lambda | [Ver clase](./clase-04/) |
