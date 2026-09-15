@@ -4,4 +4,4 @@
 
 ## ¿Qué vimos hoy?
 
-aun falta
+Hoy el profesor explicó funciones de filtrado de datos usando expresiones lambda, y dejo un par de ejercicios de aplicación.
