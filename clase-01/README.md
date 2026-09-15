@@ -1,4 +1,4 @@
-# CLASE 1: Paradigmas de programación
+# CLASE 1: PARADIGMAS DE PROGRAMACIÓN
 **Fecha:** 2 de Septiembre de 2026
 
 ## ¿Qué vimos hoy?
