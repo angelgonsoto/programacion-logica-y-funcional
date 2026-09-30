@@ -17,3 +17,4 @@ Bienvenido al diario de actividades del curso. Aquí documento lo realizado en c
 | 05 | 21 de septiembre | PROGRAMACIÓN FUNCIONAL | [Ver clase](./clase-05/) |
 | 06 | 24 de septiembre | NO ASISTÍ | NA |
 | 07 | 28 de septiembre| RECURSIVIDAD | [Ver clase](./clase-06/) |
+| 07 | 30 de septiembre | Optimización en la recursividad | [Ver clase](./clase-07/) |
