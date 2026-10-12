@@ -18,3 +18,4 @@ Bienvenido al diario de actividades del curso. Aquí documento lo realizado en c
 | 06 | 24 de septiembre | NO ASISTÍ | NA |
 | 07 | 28 de septiembre| RECURSIVIDAD | [Ver clase](./clase-06/) |
 | 07 | 30 de septiembre | Optimización en la recursividad | [Ver clase](./clase-07/) |
+| 99 | 12 de octubre | FUNCIONES LAMBDA | [Ver clase](./clase-99/) |
