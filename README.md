@@ -10,12 +10,12 @@ Bienvenido al diario de actividades del curso. Aquí documento lo realizado en c
 
 | Clase | Fecha | Tema | Enlace |
 | :--- | :--- | :--- | :--- |
-| 01 | 2 de septiembre | Paradigmas de programación | [Ver clase](./clase-01/) |
+| 01 | 2 de septiembre | PARADIGMAS DE PROGRAMACIÓN | [Ver clase](./clase-01/) |
 | 02 | 7 de septiembre | NO ASISTÍ A CLASE | NA |
-| 03 | 9 de septiembre | Funciones de orden superior | [Ver clase](./clase-03/) |
-| 04 | 14 de septiembre | Funciones map y filter usando expresiones lambda | [Ver clase](./clase-04/) |
+| 03 | 9 de septiembre | FUNCIONES DE ORDEN SUPERIOR | [Ver clase](./clase-03/) |
+| 04 | 14 de septiembre | FUNCIONES MAP Y FILTER USANDO FUNCIONES LAMBDA | [Ver clase](./clase-04/) |
 | 05 | 21 de septiembre | PROGRAMACIÓN FUNCIONAL | [Ver clase](./clase-05/) |
-| 06 | 24 de septiembre | NO ASISTÍ | NA |
-| 07 | 28 de septiembre| RECURSIVIDAD | [Ver clase](./clase-06/) |
-| 07 | 30 de septiembre | Optimización en la recursividad | [Ver clase](./clase-07/) |
-| 99 | 12 de octubre | FUNCIONES LAMBDA | [Ver clase](./clase-99/) |
+| 06 | 24 de septiembre | NO ASISTÍ A CLASE | NA |
+| 07 | 28 de septiembre| RECURSIVIDAD | [Ver clase](./clase-07/) |
+| 08 | 30 de septiembre | OPTIMIZACION EN LA RECURSIVIDAD | [Ver clase](./clase-08/) |
+| 09 | 12 de octubre | FUNCIONES LAMBDA | [Ver clase](./clase-09/) |
