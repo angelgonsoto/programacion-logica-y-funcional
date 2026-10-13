@@ -16,6 +16,5 @@ Bienvenido al diario de actividades del curso. Aquí documento lo realizado en c
 | 04 | 14 de septiembre | FUNCIONES MAP Y FILTER USANDO FUNCIONES LAMBDA | [Ver clase](./clase-04/) |
 | 05 | 21 de septiembre | PROGRAMACIÓN FUNCIONAL | [Ver clase](./clase-05/) |
 | 06 | 24 de septiembre | NO ASISTÍ A CLASE | NA |
-| 07 | 28 de septiembre| RECURSIVIDAD | [Ver clase](./clase-07/) |
-| 08 | 30 de septiembre | OPTIMIZACION EN LA RECURSIVIDAD | [Ver clase](./clase-08/) |
-| 09 | 12 de octubre | FUNCIONES LAMBDA | [Ver clase](./clase-09/) |
+| 07 | 28 de septiembre| OPTIMIZACIóN EN LA RECURSIVIDAD | [Ver clase](./clase-07/) |
+| 08 | 12 de octubre | FUNCIONES LAMBDA | [Ver clase](./clase-08/) |
